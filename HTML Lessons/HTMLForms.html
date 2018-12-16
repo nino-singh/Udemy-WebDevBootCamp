@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Forms Lesson</title>
+</head>
+<body>
+
+	<h1>Sign In</h1>
+
+<!-- Form tag is a logical container that groups the input items Two attributes for this tag, action=where data is sent, method=what http method we are using. Either sending or receiving data -->
+
+<!-- Can use label tags to explain what each input part of the form is for -->
+
+	<form action="/sign-in-url" method="post">
+		<label>
+			Username:
+			<input type="text" placeholder="username" required>
+		</label>
+
+<!-- Alternate syntax for specifying label info for an input tag -->
+
+<!-- Using the attribute "required" is a boolean that validates and make sure that you filled in the text before submitting data -->
+
+		<label for="password">Password</label>
+		<input id="password" type="password" required>
+		<input type="submit">
+	</form>
+
+	<!-- Radio button -->
+
+	<p>Do you prefer cats or dogs?</p>
+
+	<!-- For each choice, the data submitted will be the name and value info in the input tag -->
+
+	<form>
+		<label for="dogs">Dogs:</label>
+		<input name="PetChoice" id="dogs" type="radio" value="DOGS">
+		<label for="cats"> Cats:</label>
+		<input name="PetChoice" id="cats" type="radio" value="CATS">
+
+		<p>What's your current mood?</p>
+		<select name="Color">
+			<option value="happy">:)</option>
+			<option value="neutral">:|</option>
+			<option value="sad">:(</option>
+		</select>
+
+		<button>Go!</button> 
+
+	<!-- Allows you to input more text and how big it should be -->
+	<div>
+		<textarea rows="10 cols="50>
+				
+		</textarea>
+	</div>
+		
+
+	</form>
+
+	<!-- Select Tag -->
+
+	<!-- Text Area Tag -->
+
+</body>
+</html>

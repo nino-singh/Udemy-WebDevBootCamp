@@ -1,0 +1,23 @@
+body
+{
+	background: rgb(200,200,200);
+	/*background:url(https://previews.123rf.com/images/belov1409/belov14091604/belov1409160400009/56211322-seamless-concrete-texture-gray-background.jpg);
+	background-repeat: no-repeat; */
+
+}
+
+h1
+{
+	color:rgba(100,200,75,0.8);
+	border: 4px solid rgb(255,100,80);
+}
+
+li 
+{
+	color:rgb(200, 30, 60);
+}
+
+h4 
+{
+	background:rgb(255,100,30);
+}
